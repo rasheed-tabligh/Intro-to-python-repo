@@ -1,7 +1,7 @@
-name = input("Enter your name: ")
+name = input ("Please enter your name: ")
 
-age = input("Enter your age: ")
+age = int(input("Please enter your age: "))
 
-location = input("Enter your location: ")
+location = input("Please enter your location: ")
 
-print("Hello {}, you are {} years old and live in {}.".format(name, age, location))
+print(f"Hello {name}, you are {age} years old and live in {location}.")
